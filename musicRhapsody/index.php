@@ -118,7 +118,6 @@
 					</a>
 				</li>
 			</ul>
-			https://youtu.be/6QrIiEnVacs 
 
 			<h3>Big Kids Make Music – Ages 3 &amp; 4 with parent</h3>
 			<p>
@@ -141,7 +140,9 @@
 					Space limited!
 				</li>
 				<li>
-					<a href="#" data-toggle="modal" data-target="#mrModal">enroll today!</a>
+					<a href="#" data-toggle="modal" data-target="#mrModal">
+						<button>Enroll Today</button>
+					</a>
 				</li>
 			</ul>
 			<h3>Young Musicians Make Music – Ages 4-5 – Drop off Class</h3>   		
