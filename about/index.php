@@ -5,7 +5,7 @@
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/bootstrap.css" rel="stylesheet">
 	<link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="../css/style.css?v=123" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
 	<?php 
 		include ('../dbFuncs.php'); 
 		include ('../includes/formProcessing.php');

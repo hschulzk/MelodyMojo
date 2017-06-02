@@ -9,6 +9,7 @@
 		$DBuserName = "redacted";
 		$dbP = "redacted";
 		$dbName = "redacted";
+	
 		$dbc = new mysqli($hostName, $DBuserName, $dbP,$dbName);
 		if ($dbc -> connect_error) {
 			return false;

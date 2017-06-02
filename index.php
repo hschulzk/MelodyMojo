@@ -3,23 +3,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- 	<link href="css/bootstrap.css" rel="stylesheet"> -->
 	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' href="css/style.css">
 	<?php 
 		include ('dbFuncs.php');
 		include ('includes/formProcessing.php');
-		$time = time(); 
-		$styleSheet = "<link rel='stylesheet' type='text/css' href='css/style.css?$time'>"
 	?>
-	<?php
-		echo $styleSheet;
-	?>		
 	<title>Melody Mojo</title>
 </head>
 <body>
-	<?php include 'includes/lessonForm.php' ?>
-	<?php include 'includes/sMusicForm.php' ?>
-	<?php include 'includes/contactForm.php' ?>
+	<?php 
+		include 'includes/lessonForm.php';
+		include 'includes/sMusicForm.php';
+		include 'includes/contactForm.php';
+	?>
 	<div class="container-fluid">
 		<div id="aboveFold">
 			<div id="bannerOverlay"></div>
