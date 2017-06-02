@@ -1,7 +1,7 @@
 <?php	
-	$allLessons = getLessonsOfType(1);
+	$allLessons = getLessonsOfType(4);
 ?>
-<div id="mrModal" class="modal fade" role="dialog">
+<div id="tryClass" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -9,7 +9,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <div class="centerContents">
-	        <h3 class="modal-title">Find a Music Rhapsody</h3>
+	        <h3 class="modal-title">Come Try a Free Class with Your Child</h3>
     	</div>
       </div>
       <div class="modal-body">
@@ -21,11 +21,10 @@
 			<label for="sLastName">Student Last Name</label>
 			<input type="text" name="sLastName" value="" required="true">
 
-			<label for="">Parent Name for Students Who are Children</label>
 			<label for="parentFirstName">Parent First Name</label>
-			<input type="text" name="parentFirstName" value="">			
+			<input type="text" name="parentFirstName" value="" required="true">			
 			<label for="parentLastName">Parent Last Name</label>
-			<input type="text" name="parentLastName" value="">
+			<input type="text" name="parentLastName" value="" required="true">
 
 			<label for="email">Your Email</label>
 			<input type="text" name="email" value="" required="true">		

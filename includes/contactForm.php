@@ -11,7 +11,7 @@
       	</div>
       </div>
       <div class="modal-body">
-    		<form name="contactForm" class="modalForm" id="contactForm" action="testDB.php" method="post">
+    		<form name="contactForm" class="modalForm" id="contactForm" action="" method="post">
     			<input type="hidden" name="contactFormSubmit" value="1">
     			<label for="name">My Name</label>
     			<input type="text" name="name" value="">		

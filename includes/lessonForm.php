@@ -13,7 +13,7 @@
     	</div>
       </div>
       <div class="modal-body">
-		<form name="requestLesson" class="modalForm" id="lessonForm" action="testdb.php" method="post">
+		<form name="requestLesson" class="modalForm" id="lessonForm" action="" method="post">
 			<input type="hidden" name="generalLesson" value="1">
 			
 			<label for="sFirstName">Student First Name</label>

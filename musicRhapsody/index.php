@@ -13,8 +13,9 @@
 	<title>Music Rhapsody</title>
 </head>
 <body>
-	<?php include ('../includes/mrForm.php'); ?>
-	<?php
+	<?php 
+		include ('../includes/mrForm.php');
+		include ('../includes/tryAClass.php'); 
 		include('../includes/header2.php');
 	?>
 
@@ -26,6 +27,10 @@
 			<h2>Early Childhood Music Classes</h2>
 
 			<iframe id="aboutVideo" src="https://www.youtube.com/embed/v14vaPDBPmE" frameborder="0" allowfullscreen></iframe>
+
+			<a data-toggle="modal" data-target="#tryClass" href="">
+				<h2 class="centerContents">Come try out a class for free with your child!</h2>
+			</a>
 
 			<h3>Babies/Toddlers Make Music – Ages 3 months - 2 with Parent</h3>
 
