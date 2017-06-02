@@ -5,10 +5,10 @@
 		I still need figure out how to mask the credentials; a server failure could expose them.
 	*/
 	function startConn($dbName) {
-		// $hostName = "redacted";
-		// $DBuserName = "redacted";
-		// $dbP = "redacted";
-		// $dbName = "redacted";
+		$hostName = "redacted";
+		$DBuserName = "redacted";
+		$dbP = "redacted";
+		$dbName = "redacted";
 	
 		$dbc = new mysqli($hostName, $DBuserName, $dbP,$dbName);
 		if ($dbc -> connect_error) {
