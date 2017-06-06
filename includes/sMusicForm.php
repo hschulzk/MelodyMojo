@@ -1,5 +1,5 @@
 <?php	
-	$pianoLessons = getLessonsOfType(2);
+	$pianoLessons = getLessonsOfType(14,15,16,17,18);
 ?>
 <div id="simplyMusicModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
@@ -35,10 +35,12 @@
 			<label for="classes">Pick a Class</label>
 			<select name="classes" required="true">
 			<?php
-				foreach ($pianoLessons as $lesson) {
+				foreach ($pianoLessons as &$lesson) {
+					$lessonDate = $lesson['lessonDate'];
+				    $date = getdate($lessonDate);
 				    echo '<option value='.'"'.$lesson['id'].'"'.'>'
-				    		.$lesson['name'] . ' '
-				    		.date_format(date_create($lesson['lessonDate']),"m/d/y").
+				    		.$lesson['name'] . ': '
+				    		.$lesson['weekday']. ' in ' . $lesson['city'] .
 				    	'</option>';
 				}
 			?>	

@@ -51,7 +51,7 @@
 	}
 
 	function getLessonsOfType($lessonType = Null) {
-		$mrQ = "SELECT lessontypes.name, lessons.id, lessons.lessonDate, lessons.maxClass, lessontypes.cost 
+		$mrQ = "SELECT lessontypes.name, lessons.id, lessons.lessonDate, lessons.maxClass, lessontypes.cost, lessons.location, lessons.city, DAYNAME(lessons.lessonDate) AS weekday
 				from lessons 
 				inner join lessontypes on lessons.typeID = lessontypes.id";
 		if($lessonType) {

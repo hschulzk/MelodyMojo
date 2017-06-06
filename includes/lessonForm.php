@@ -36,10 +36,12 @@
 			<label for="classes">Pick a Class</label>
 			<select name="classes" required="true">
 			<?php
-				foreach ($allLessons as $lesson) {
+				foreach ($allLessons as &$lesson) {
+					$lessonDate = $lesson['lessonDate'];
+				    $date = getdate($lessonDate);
 				    echo '<option value='.'"'.$lesson['id'].'"'.'>'
-				    		.$lesson['name'] . ' '
-				    		.date_format(date_create($lesson['lessonDate']),"m/d/y").
+				    		.$lesson['name'] . ': '
+				    		.$lesson['weekday']. ' in ' . $lesson['city'] .
 				    	'</option>';
 				}
 			?>	
