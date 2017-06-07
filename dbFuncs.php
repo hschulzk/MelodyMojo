@@ -4,18 +4,19 @@
 		Creates a database connection with given database name.
 		I still need figure out how to mask the credentials; a server failure could expose them.
 	*/
-	function startConn($dbName) {
-		$hostName = "redacted";
-		$DBuserName = "redacted";
-		$dbP = "redacted";
-		$dbName = "redacted";
-	
-		$dbc = new mysqli($hostName, $DBuserName, $dbP,$dbName);
-		if ($dbc -> connect_error) {
-			return false;
-		}	 
-		return $dbc;
-	}
+	function startConn() {
+	    if(!isset($connection)) {
+	         // Load configuration as an array. Use the actual location of your configuration file
+	        $config = parse_ini_file('/home3/kschulzk/config/mmDbConnect.ini');
+	        $connection = mysqli_connect('localhost',$config['username'],$config['password'],$config['dbname']);
+	    }
+
+	    // If connection was not successful, return an error
+	    if($connection === false) {
+	        return mysqli_connect_error();
+	    }
+	    return $connection;
+	}	
 	
 	//Takes a connection object as an argument and closes it
 	function closeCon($dbc) {
