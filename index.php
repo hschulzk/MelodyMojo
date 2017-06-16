@@ -50,10 +50,10 @@
 			</div>					
 			<div class="col-lg-9 col-md-6 sectionDescription">
 				<p>
-					We believe that every child is born with an innate and profound musicality. At the most basic and obvious level this musicality is demonstrated every day in such things as our ability to walk and talk. Our musicality is a gift, and with proper nurturing it grows with your child.
+					Early childhood music and movement programs seem like fun and games and they are, but they are also an excellent way to help children develop rhythm, balance and other skills so important to developing language, math skills, balance, coordinate, social skills, critical thinking, organization skills, creativity and confidence.  All those benefits wrapped up in an hour of song, dance, laughing, running, playing, puppets, super-cool instruments and snuggling and bonding with mom, dad or a caregiver.  It’s too much fun! 
 				</p>
 				<p>
-					The Music Rhapsody program, developed by internationally renowned music educator Lynn Kleiner, addresses each age and stage of childhood development. It meets your child exactly where he or she is. Beautiful, diverse songs, singable phrases, repetition with variety, the use of instruments, puppets and visuals all foster the love of music in an exciting and creative environment. It is a program that, to its core, acknowledges and values the input and creativity of each and every child.
+					Every child is born innately, profoundly musical.  Our musicality is a gift, and with proper nurturing it grows with your child. The Music Rhapsody program, developed by internationally renowned music educator Lynn Kleiner, addresses each age and stage of childhood development. Beautiful, diverse songs, singable phrases, repetition with variety, the use of instruments, puppets and visuals all foster the love of music in an exciting and creative environment. It is a program that, to its core, acknowledges and values the input and creativity of each and every child.
 				</p>
 				<h3><a href="musicRhapsody/"  style="text-decoration: underline;">Learn More</a></h3>
 			</div>					

@@ -26,7 +26,9 @@
 
 			<h2>Early Childhood Music Classes</h2>
 
-			<iframe id="aboutVideo" src="https://www.youtube.com/embed/v14vaPDBPmE" frameborder="0" allowfullscreen></iframe>
+			<!-- <iframe id="aboutVideo" src="https://www.youtube.com/embed/v14vaPDBPmE" frameborder="0" allowfullscreen></iframe> -->
+			<iframe width="1280" height="720" src="https://www.youtube.com/embed/6QrIiEnVacs" frameborder="0" allowfullscreen></iframe>
+			<!-- https://youtu.be/6QrIiEnVacs -->
 
 			<a data-toggle="modal" data-target="#tryClass" href="">
 				<h2 class="centerContents">Come try out a class for free with your child!</h2>
