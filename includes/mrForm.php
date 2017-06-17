@@ -1,10 +1,7 @@
-	
 
-
-<!-- 	<?php	
-		//$allLessons = getLessonsOfType(1);
-	?> -->
-
+ 	<?php	
+		$allLessons = getLessonsOfType(1);
+	?>
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <div class="centerContents">
@@ -34,15 +31,14 @@
 		
 		<label for="classes">Pick a Class</label>
 		<select name="classes" required="true">
-			<option>Fuck these cats</option>
-<!-- 		<?php
-			// foreach ($allLessons as $lesson) {
-			//     echo '<option value='.'"'.$lesson['id'].'"'.'>'
-			//     		.$lesson['name'] . ' '
-			//     		.date_format(date_create($lesson['lessonDate']),"m/d/y").
-			//     	'</option>';
-			// }
-		?>	 -->
+			<?php
+				foreach ($allLessons as $lesson) {
+				    echo '<option value='.'"'.$lesson['id'].'"'.'>'
+				    		.$lesson['name'] . ' '
+				    		.date_format(date_create($lesson['lessonDate']),"m/d/y").
+				    	'</option>';
+				}
+			?>
 		</select>
 		
 		<div class="centerContents">

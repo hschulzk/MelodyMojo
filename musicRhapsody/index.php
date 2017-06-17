@@ -4,12 +4,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<!-- 	<link rel='stylesheet' type='text/css' href="../css/style.css?v=12asa3"> -->
+	<link rel='stylesheet' type='text/css' href="../css/style.css">
 
 	<?php 
-		// include ('../dbFuncs.php'); 
-		// include ('../includes/formProcessing.php');
-	include ('../css/style.php');
+		include ('../dbFuncs.php'); 
+		include ('../includes/formProcessing.php');
 	?>
 	<title>Music Rhapsody</title>
 </head>
@@ -25,8 +24,6 @@
 			<h1>Music Rhapsody</h1>
 
 			<h2>Early Childhood Music Classes</h2>
-
-			<!-- <iframe id="aboutVideo" src="https://www.youtube.com/embed/v14vaPDBPmE" frameborder="0" allowfullscreen></iframe> -->
 			<iframe 
 				width="1280" 
 				height="720" 
@@ -35,8 +32,6 @@
 				id="aboutVideo" 
 				allowfullscreen>
 			</iframe>
-			<!-- https://youtu.be/6QrIiEnVacs -->
-
 			<a data-toggle="modal" data-target="#mmFormModal" href="../includes/modals/tryAClassFormContent.php">
 				<h2 class="centerContents">Sneak Peek - Sign me up for a free visit!</h2>
 			</a>

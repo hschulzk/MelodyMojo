@@ -6,8 +6,8 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel='stylesheet' type='text/css' href="css/style.css">
 	<?php 
-		// include ('dbFuncs.php');
-		// include ('includes/formProcessing.php');
+		include ('dbFuncs.php');
+		include ('includes/formProcessing.php');
 	?>
 	<title>Melody Mojo</title>
 </head>
