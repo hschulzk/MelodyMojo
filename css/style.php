@@ -1,3 +1,4 @@
+<style>
 * {box-sizing: border-box;}
 
 /*General element styling including behavior specific classes and bootstrap fixes*/
@@ -392,3 +393,4 @@ div.pageBody.mrPageBody ul li a button {
 	font-size: 1.3em; 
 	margin-top: 1em;
 }
+</style>

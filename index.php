@@ -2,20 +2,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel='stylesheet' type='text/css' href="css/style.css">
 	<?php 
-		include ('dbFuncs.php');
-		include ('includes/formProcessing.php');
+		// include ('dbFuncs.php');
+		// include ('includes/formProcessing.php');
 	?>
 	<title>Melody Mojo</title>
 </head>
 <body>
 	<?php 
-		include 'includes/lessonForm.php';
-		include 'includes/sMusicForm.php';
-		include 'includes/contactForm.php';
+		include 'includes/tryAClass.php';
 	?>
 	<div class="container-fluid">
 		<div id="aboveFold">
@@ -25,30 +23,25 @@
 					<img width="310px" height="360px" src="img/mm2.png">
 				</div>
 				<div class="row" id="findALesson">
-					<button id="openModal" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#lessonModal">
-						<i class="fa fa-music" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Find a Class
-					</button>
-				</div>
 
-				
-					<?php
-						include('includes/header.php')
-					?>					
-				
+				</div>				
+				<?php
+					include('includes/header.php')
+				?>				
 			</div>
 			<img height="100vh" width="100vw" id="bannerPhoto" src="pianoKeys2.jpg">
 		</div>
 		<div class="row lessonSection" id="earlyChildhood">
-			<div class="col-lg-3 col-md-6"></div>			
-			<div class="col-lg-9 col-md-6 sectionDescription">
+			<div class="col-lg-4 col-md-6"></div>			
+			<div class="col-lg-8 col-md-6 sectionDescription">
 				<h2>
 					Music Rhapsody Early Childhood Music
 				</h2>
 			</div>
-			<div class="col-lg-3 col-md-6 centerContents">
+			<div class="col-lg-4 col-md-6 centerContents">
 				<img width="400px" height="265px" class="" src="img/childrenMusic.jpeg">
 			</div>					
-			<div class="col-lg-9 col-md-6 sectionDescription">
+			<div class="col-lg-8 col-md-6 sectionDescription">
 				<p>
 					Early childhood music and movement programs seem like fun and games and they are, but they are also an excellent way to help children develop rhythm, balance and other skills so important to developing language, math skills, balance, coordinate, social skills, critical thinking, organization skills, creativity and confidence.  All those benefits wrapped up in an hour of song, dance, laughing, running, playing, puppets, super-cool instruments and snuggling and bonding with mom, dad or a caregiver.  It’s too much fun! 
 				</p>
@@ -60,14 +53,14 @@
 		</div>		
 
 		<div class="row lessonSection" id="simplyMusicPiano">
-			<div class="col-lg-3 col-md-6"></div>			
-			<div class="col-lg-9 col-md-6 sectionDescription">
+			<div class="col-lg-4 col-md-6"></div>			
+			<div class="col-lg-8 col-md-6 sectionDescription">
 				<h2>Simply Music Piano</h2>
 			</div>
-			<div class="col-lg-3 col-md-6 centerContents">
+			<div class="col-lg-4 col-md-6 centerContents">
 				<img width="400px" height="265px" src="img/pianoFingers.jpeg">
 			</div>
-			<div class="col-lg-9 col-md-6 sectionDescription">	
+			<div class="col-lg-8 col-md-6 sectionDescription">	
 				<p>
 				Part of the beauty of Simply Music Piano is how quickly and easily it makes a huge quantity of quality music immediately accessible to students, ages 6 to 90, through its break-through Australian developed play-based method.  Theory is learned quickly as it is used to expand the student’s repertoire, including original compositions.  Group classes are the most efficient and fun method.  All lessons are taught in a highly self-affirming, success-oriented environment.  I love helping students start playing fun music at their first lessons while building a toolkit to help them self-generate learning new pieces and improvising their own.  The combination of teacher-time, fully supportive at-home materials and an innovative method results in students who love making music.  	
 				</p>
@@ -78,7 +71,7 @@
 				Lessons are currently offered at Jennings Music and Education Center, The Homeschool Consortium and at my home studio in Woodstock.  
 				</p>
 				<h3>
-					<a href="#" data-toggle="modal" data-target="#simplyMusicModal" style="text-decoration: underline;">Schedule a Lesson</a>
+					<a href="includes/sMusicForm.php" data-toggle="modal" data-target="#mmFormModal" style="text-decoration: underline;">Schedule a Lesson</a>
 				</h3>
 			</div>
 		</div>		

@@ -24,8 +24,8 @@
 		</a>							
 		<a 
 			class="navLinks"
-			href="#"
-			data-toggle="modal" data-target="#contactModal">
+			href="includes/contactForm.php"
+			data-toggle="modal" data-target="#mmFormModal">
 			<li>Contact</li>
 		</a>				
 		<a 

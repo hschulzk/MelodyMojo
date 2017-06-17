@@ -1,14 +1,36 @@
 <?php
-	include ('../dbFuncs.php');
-	$allLessons = getLessonsOfType(4);
+	// include ('../dbFuncs.php');
+	//$allLessons = getLessonsOfType(4);
+	//Next three lines are for testing
+$dateTime = date_create('02-10-2017');
+$formatDateTime = date_format($dateTime, "m/d/y");
+
+	$lesson = array(
+	    "id" => 4,
+	    "name" => 'Music Papsidy',
+	    "lessonDate" => $formatDateTime,
+	    "lessonLocation" => "The Music Studio on 9th"
+	);
 ?>
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <div class="centerContents">
-	        <h3 class="modal-title">Simply Music Piano</h3>
-    	</div>
-    </div>
+<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal">&times;</button>
+	<div class="centerContents">
+	    <h3 class="modal-title">Come Try a Free Class with Your Child</h3>
+	</div>
+</div>
 <div class="modal-body">
+
+<!--
+  <form>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      </div>
+    </div>
+
+-->
+
 	<form name="requestLesson" class="modalForm" id="lessonForm" action="" method="post">
 		<input type="hidden" name="generalLesson" value="1">
 
@@ -46,13 +68,32 @@
 		<div class="form-group row">
 			<div class="col-sm-12">
 				<label for="classes">Pick a Class</label>
-				<?php					
+
+				<?php
+					/*
 					foreach ($allLessons as $lesson) {
 					    echo '<option value='.'"'.$lesson['id'].'"'.'>'
 					    		.$lesson['name'] . ' '
 					    		.date_format(date_create($lesson['lessonDate']),"m/d/y").
 					    	'</option>';
-					}							
+					}
+					*/
+					$countArray = [1,2,3,4,5];
+					foreach($countArray as $item) {
+						echo 
+						'<div class="col-md-4">'
+						.'<input type="radio" value='
+						.'"'
+						.$lesson['id']
+						.'"'
+						.'>'
+						.'<span>'
+						.$lesson['name'] . ' '
+						.$lesson['lessonLocation'] . ' '
+						.date_format(date_create($lesson['lessonDate']),"m/d/y")
+						.'</span>'
+						.'</div>';
+					}								
 				?>	
 
 			</div>	
