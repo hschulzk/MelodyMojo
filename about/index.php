@@ -2,22 +2,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/bootstrap.css" rel="stylesheet">
-	<link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="../css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' href="../css/style.css">
 	<?php 
-		include ('../dbFuncs.php'); 
-		include ('../includes/formProcessing.php');
+		//include ('dbFuncs.php');
+		//include ('includes/formProcessing.php');
 	?>
 
 	<title>About Melody Mojo</title>
 </head>
 <body>
-	<?php include ('../includes/contactForm.php'); ?>
-
-
-	<?php
+	<?php 
+		//include ('../includes/contactForm.php'); 
 		include('../includes/header2.php')
 	?>	
 
@@ -58,7 +55,13 @@
 		<!-- <p>Reach out to me at (my first name)(at symbol)MelodyMojo.com.</p> -->
 	</div>
 </div>
-<script type="text/javascript" src="../js/jquery.js"></script>
-<script type="text/javascript" src="../js/script.js"></script>
-<script type="text/javascript" src="../js/bootstrap.js"></script>
+	<footer id="pageFooter" style="width: 100%; height: 8em; background-color: rgba(0,0,0,0.8);">
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous">
+		</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../js/script.js"></script>
+	</footer>
 </body>

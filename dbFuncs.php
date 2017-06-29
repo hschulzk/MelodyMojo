@@ -1,9 +1,5 @@
 <?php
 	
-	/*
-		Creates a database connection with given database name.
-		I still need figure out how to mask the credentials; a server failure could expose them.
-	*/
 	function startConn() {
 	    if(!isset($connection)) {
 	         // Load configuration as an array. Use the actual location of your configuration file
