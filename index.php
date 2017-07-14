@@ -13,7 +13,7 @@
 </head>
 <body>
 	<?php 
-		include 'includes/tryAClass.php';
+		include 'includes/bsForm.php';
 	?>
 	<div class="container-fluid">
 		<div id="aboveFold">
@@ -71,7 +71,7 @@
 				Lessons are currently offered at Jennings Music and Education Center, The Homeschool Consortium and at my home studio in Woodstock.  
 				</p>
 				<h3>
-					<a href="includes/sMusicForm.php" data-toggle="modal" data-target="#mmFormModal" style="text-decoration: underline;">Schedule a Lesson</a>
+					<a href="includes/modals/sMusicForm.php" data-toggle="modal" data-target="#bsModal" style="text-decoration: underline;">Schedule a Lesson</a>
 				</h3>
 			</div>
 		</div>		
@@ -96,15 +96,9 @@
 		</div>
 		<div class="row" style="margin-top: 25em;"></div>
 	</div>
-	<footer id="pageFooter" style="width: 100%; height: 8em; background-color: rgba(0,0,0,0.8);">
-		<script
-			src="https://code.jquery.com/jquery-3.2.1.min.js"
-  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  			crossorigin="anonymous">
-  		</script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/script.js"></script>		
-	</footer>
+	<?php
+		include 'includes/footer.php';
+	?>
 </body>
 
 

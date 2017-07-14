@@ -47,14 +47,18 @@
 			<div class="col-sm-12">
 				<label for="classes">Pick a Class</label>
 
-				<?php
-					
+				<?php					
 					foreach ($allLessons as $lesson) {
-					    echo '<option value='.'"'.$lesson['id'].'"'.'>'
-					    		.$lesson['name'] . ' '
-					    		.date_format(date_create($lesson['lessonDate']),"m/d/y").
-					    	'</option>';
-					}							
+					   echo '<label>'
+					   		.'<span class="classes">'
+					   		.$lesson['name']
+					   		.' '
+					   		.$lesson['lessonDate']
+					   		.'</span>'
+					   		.'<input type="radio" class="classOptions" name="lessonOption" value='.'"'
+					   		.$lesson['id'].'">'
+					   		.'</label>';
+					}						
 				?>	
 
 			</div>	

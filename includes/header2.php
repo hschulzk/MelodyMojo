@@ -30,7 +30,7 @@
 		<a 
 			class="navLinks"
 			href="../includes/contactForm.php"
-			data-toggle="modal" data-target="#mmFormModal">
+			data-toggle="modal" data-target="#bsModal">
 			<li>Contact</li>
 		</a>				
 		<a 
@@ -41,4 +41,10 @@
 	</ul>
 </div>
 
+<?php 
+	if (isset($testVal)) {
+		echo '<div id="submitSuccess"><h3>Thanks for submitting. We'."'".'ll be in touch shortly.</h3><button id="formSuccessClose">Close</button></div>';
+	} 
+
+?>
 

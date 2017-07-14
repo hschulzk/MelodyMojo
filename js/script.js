@@ -25,7 +25,7 @@
 			$('.scrollNav#navRow ul').slideToggle();
 		});
 
-		$("#mmFormModal").on("show.bs.modal", function(e) {
+		$("#bsModal").on("show.bs.modal", function(e) {
 		    var link = $(e.relatedTarget);
 		    console.dir(link);
 		    $(this).find(".modal-body").load(link.attr("href"));

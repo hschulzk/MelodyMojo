@@ -2,9 +2,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel='stylesheet' type='text/css' href="../css/style.css">
+	<link 
+		rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
+	>
+	<link 
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+		rel="stylesheet"
+	>
+	<link 
+		rel='stylesheet' 
+		type='text/css' 
+		href="../css/style.css"
+	>
 	<?php 
 		include ('../dbFuncs.php'); 
 		include ('../includes/formProcessing.php');
@@ -13,7 +24,7 @@
 </head>
 <body>
 	<?php 
-		include ('../includes/tryAClass.php'); 
+		include ('../includes/bsForm.php'); 
 		include('../includes/header2.php');
 	?>
 
@@ -21,7 +32,6 @@
 		<div class="row pageBody mrPageBody">
 
 			<h1>Music Rhapsody</h1>
-
 			<h2>Early Childhood Music Classes</h2>
 			<iframe 
 				width="1280" 
@@ -31,7 +41,7 @@
 				id="aboutVideo" 
 				allowfullscreen>
 			</iframe>
-			<a data-toggle="modal" data-target="#mmFormModal" href="../includes/modals/tryAClassFormContent.php">
+			<a data-toggle="modal" data-target="#bsModal" href="../includes/modals/tryAClassFormContent.php">
 				<h2 class="centerContents">Sneak Peek - Sign me up for a free visit!</h2>
 			</a>
 
@@ -57,7 +67,7 @@
 					Space limited
 				</li>
 				<li>
-					<a href="../includes/modals/mrFormContent.php" data-toggle="modal" data-target="#mmFormModal">
+					<a href="../includes/modals/mrFormContent.php" data-toggle="modal" data-target="#bsModal">
 						<button style="">Enroll Today</button>
 					</a>					
 
@@ -86,7 +96,7 @@
 					Space limited!
 				</li>
 				<li>
-					<a href="../includes/modals/mrFormContent.php" data-toggle="modal" data-target="#mmFormModal">
+					<a href="../includes/modals/mrFormContent.php" data-toggle="modal" data-target="#bsModal">
 						<button>
 							Enroll Today!
 						</button>
@@ -116,7 +126,7 @@
 					Space limited!
 				</li>
 				<li>
-					<a href="../includes/modals/mrFormContent.php" data-toggle="modal" data-target="#mmFormModal">
+					<a href="../includes/modals/mrFormContent.php" data-toggle="modal" data-target="#bsModal">
 						<button>Enroll Today</button>
 					</a>
 				</li>
@@ -143,7 +153,7 @@
 					Space limited!
 				</li>
 				<li>
-					<a href="../includes/modals/mrFormContent.php" data-toggle="modal" data-target="#mmFormModal">
+					<a href="../includes/modals/mrFormContent.php" data-toggle="modal" data-target="#bsModal">
 						<button>Enroll Today</button>
 					</a>
 				</li>
@@ -155,7 +165,7 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="../js/jquery.js"></script>
-	<script type="text/javascript" src="../js/script.js?v=1s23sd"></script>
-	<script type="text/javascript" src="../js/bootstrap.js"></script>
+	<?php
+		include '../includes/footer.php';
+	?>
 </body>
