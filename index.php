@@ -7,7 +7,6 @@
 	<link rel='stylesheet' type='text/css' href="css/style.css">
 	<?php 
 		include ('dbFuncs.php');
-		
 		include ('includes/formProcessing.php');
 	?>
 	<title>Melody Mojo</title>

@@ -72,9 +72,16 @@ div.row.scrollNav#navRow ul
 }
 
 div#aboveFold > div#graphicOverlay > .row > ul a,
-div.row.scrollNav#navRow ul a {width: 20%; outline-color: black;}
+div.row.scrollNav#navRow ul a {
+	margin: auto; 
+	outline-color: black;
+}
 
-div.pageBody {margin-top: 100px; padding: 1em 1em 1em 1em; text-align: justify;}
+div.pageBody {
+	margin-top: 100px; 
+	padding: 1em 1em 1em 1em; 
+	text-align: justify;
+}
 
 
 div.pageBody .row div p {
@@ -112,9 +119,9 @@ div.row.scrollNav#navRow ul li
 	list-style: none;        	
 }
 
-div.row#navRow ul li {font-size: 1.3em;}
+div.row#navRow ul li {font-size: 1.5rem;}
 
-div.row.scrollNav#navRow ul li {color: white;font-size: 1.25em;}
+div.row.scrollNav#navRow ul li {color: white;font-size: 1.5rem;}
 
 div#aboveFold > div#graphicOverlay > .row.scrollNav#navRow ul li {color: white;}
 
@@ -141,7 +148,16 @@ div.row.scrollNav#navRow ul li:hover {background-color: rgba(255,255,255,0.5);}
 	color: white;
 }
 
-div#bannerPhotoBox {margin-top: 3em;}
+div#bannerPhotoBox {
+	margin-top: 3em;
+}
+
+@media (max-height: 700px) {
+	div#bannerPhotoBox img {
+		height: 200px;
+	    width: auto;
+	}
+}
 
 div#findALesson {
 	margin-top: 10vh;
@@ -392,5 +408,35 @@ div.pageBody.mrPageBody ul li a button {
 	color: white; 
 	font-size: 1.3em; 
 	margin-top: 1em;
+}
+
+#submitSuccess {
+	position: fixed;
+	width: 70vw;
+	left: 15vw;
+	top: 30vh;
+	height: 25em;
+	max-height: 50vh;
+	background-color: white;
+	color: white;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	border-radius: 6px;
+	text-align: center;
+	padding: 6em;
+}
+
+#formSuccessClose {
+	background-color: #2E6FA5;
+	border: none;
+	color: white;
+	font-size: 1em;
+	padding: 1em 3em 1em 3em;
+	margin-top: 1em;
+}
+@media (max-width: 761px) {
+	#submitSuccess {
+		width: 90vw;
+		left: 5vw;
+	}
 }
 </style>

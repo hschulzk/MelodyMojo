@@ -64,7 +64,15 @@
 	function dumpFormData($post){
 		$dbc = startConn('mm');
 		$post = json_encode($post);
-		$returnVal = $post;
+		$postedData = "'" . $dbc->real_escape_string($post) . "'";
+		$dumpFormQ = "INSERT INTO formsubmissions (formContents, createDate) 
+					VALUES ($postedData, now())";
+		if($dbc->query($dumpFormQ) === true) {
+		  $returnVal = mysqli_insert_id($dbc);
+		} else {
+		  $returnVal = $dbc->error;
+		}		
+		closeCon($dbc);
 		return $returnVal;		
-	}
+	}	
 ?>
