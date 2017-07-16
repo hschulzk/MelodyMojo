@@ -43,10 +43,10 @@
 			</div>					
 			<div class="col-lg-8 col-md-6 sectionDescription">
 				<p>
-					Early childhood music and movement programs seem like fun and games and they are, but they are also an excellent way to help children develop rhythm, balance and other skills so important to developing language, math skills, balance, coordinate, social skills, critical thinking, organization skills, creativity and confidence.  All those benefits wrapped up in an hour of song, dance, laughing, running, playing, puppets, super-cool instruments and snuggling and bonding with mom, dad or a caregiver.  It’s too much fun! 
+					Early childhood music and movement programs seem like fun and games--and they are--, but they are also an excellent way to help children develop rhythm, balance and other skills so important to developing language, math skills, balance, coordinate, social skills, critical thinking, organization skills, creativity and confidence.  All those benefits wrapped up in an hour of song, dance, laughing, running, playing, puppets, super-cool instruments and snuggling and bonding with mom, dad or a caregiver.  It’s too much fun! 
 				</p>
 				<p>
-					Every child is born innately, profoundly musical.  Our musicality is a gift, and with proper nurturing it grows with your child. The Music Rhapsody program, developed by internationally renowned music educator Lynn Kleiner, addresses each age and stage of childhood development. Beautiful, diverse songs, singable phrases, repetition with variety, the use of instruments, puppets and visuals all foster the love of music in an exciting and creative environment. It is a program that, to its core, acknowledges and values the input and creativity of each and every child.
+					Every child is born innately, profoundly musical.  Our musicality is a gift, and with proper nurturing it grows with your child. The Music Rhapsody program, developed by internationally renowned music educator Lynn Kleiner, addresses each age and stage of childhood development. Beautiful, diverse songs, singable phrases, repetition with variety, the use of instruments, puppets and visuals all foster the love of music in an exciting and creative environment. Kid-tested and loved since 1983, it's a program that, to its core, acknowledges and values the input and creativity of each and every child.
 				</p>
 				<p>
 					Classes held at <strong>Steps Dance Center</strong>, 1025 Rose Creek Drive, Suite 460, Woodstock, GA, 30189	
@@ -68,14 +68,14 @@
 				Part of the beauty of Simply Music Piano is how quickly and easily it makes a huge quantity of quality music immediately accessible to students, ages 6 to 90, through its break-through Australian developed play-based method.  Theory is learned quickly as it is used to expand the student’s repertoire, including original compositions.  Group classes are the most efficient and fun method.  All lessons are taught in a highly self-affirming, success-oriented environment.  I love helping students start playing fun music at their first lessons while building a toolkit to help them self-generate learning new pieces and improvising their own.  The combination of teacher-time, fully supportive at-home materials and an innovative method results in students who love making music.  	
 				</p>
 				<p>	
-				Students needs an acoustic piano or a weighted 88 keys, keyboard with a pedal at home in order to practice (for example, Casio Privia series).  
+				Students needs an acoustic piano or a weighted 61+ keys, keyboard with a pedal at home in order to practice (for example, Casio Privia series).  
 				</p>
 				<p>
 				Lessons are currently offered at:<br> 
 				<ul>
-					<li><strong>Jennings Music and Education Center</strong>, 3595 Canton Rd., #308, Marietta, GA 30066 (next to Kroger)</li>
+					<li><strong><a href="http://jenningsmusic.com/">Jennings Music and Education Center</a></strong>, 3595 Canton Rd., #308, Marietta, GA 30066 (next to Kroger)</li>
 					<li>	
-						<strong>The Homeschool Consortium</strong>, 210 Wooten Lake Rd NW, Kennesaw, Cobb County 30144 and at my home studio in Woodstock. 
+						<strong><a href="https://thehomeschoolconso.wixsite.com/website">The Homeschool Consortium</a></strong>, 210 Wooten Lake Rd NW, Kennesaw, Cobb County 30144 and at my home studio in Woodstock. 
 					</li>
 				</ul>
 				</p>

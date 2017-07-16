@@ -29,15 +29,15 @@
 		</a>							
 		<a 
 			class="navLinks"
-			href="../includes/contactForm.php"
+			href="../includes/modals/contactForm.php"
 			data-toggle="modal" data-target="#bsModal">
 			<li>Contact</li>
 		</a>				
-		<a 
+<!-- 		<a 
 			class="navLinks"
 			href="#mRhapsody">
 			<li>Blog</li>
-		</a>								
+		</a> -->								
 	</ul>
 </div>
 

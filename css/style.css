@@ -137,7 +137,6 @@
 		top:0px;
 		background-color: rgba(0,0,0,0.8);
 	    width: 100%;
-	    min-height: 60px;
 	    max-height: 100px;
 	    color: white;	
 	}
@@ -152,7 +151,7 @@
 		margin-top: 3em;
 	}
 
-	@media (max-height: 700px) {
+	@media (max-height: 800px) {
 		div#bannerPhotoBox img {
 			height: 200px;
 		    width: auto;

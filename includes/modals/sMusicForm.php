@@ -1,6 +1,7 @@
 <?php
 	include ('../../dbFuncs.php');
-	$allLessons = getLessonsOfType(4);
+	$lessonList = explode(',', '8,14,15,16,17,18,0');
+	$allLessons = getLessonsOfType($lessonList);
 ?>
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>

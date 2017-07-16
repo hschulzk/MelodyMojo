@@ -14,7 +14,8 @@
 </head>
 <body>
 	<?php 
-		include('../includes/header2.php')
+		include('../includes/header2.php');
+		include '../includes/bsForm.php';
 		include ('../includes/formProcessing.php');	
 	?>	
 
@@ -55,6 +56,6 @@
 	</div>
 </div>
 	<?php
-		include 'includes/footer.php';
+		include ('../includes/footer.php');
 	?>
 </body>
