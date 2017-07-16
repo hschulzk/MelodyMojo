@@ -7,6 +7,7 @@
 	<link rel='stylesheet' type='text/css' href="css/style.css">
 	<?php 
 		include ('dbFuncs.php');
+		
 		include ('includes/formProcessing.php');
 	?>
 	<title>Melody Mojo</title>
@@ -48,6 +49,9 @@
 				<p>
 					Every child is born innately, profoundly musical.  Our musicality is a gift, and with proper nurturing it grows with your child. The Music Rhapsody program, developed by internationally renowned music educator Lynn Kleiner, addresses each age and stage of childhood development. Beautiful, diverse songs, singable phrases, repetition with variety, the use of instruments, puppets and visuals all foster the love of music in an exciting and creative environment. It is a program that, to its core, acknowledges and values the input and creativity of each and every child.
 				</p>
+				<p>
+					Classes held at <strong>Steps Dance Center</strong>, 1025 Rose Creek Drive, Suite 460, Woodstock, GA, 30189	
+				</p>
 				<h3><a href="musicRhapsody/"  style="text-decoration: underline;">Learn More</a></h3>
 			</div>					
 		</div>		
@@ -68,7 +72,13 @@
 				Students needs an acoustic piano or a weighted 88 keys, keyboard with a pedal at home in order to practice (for example, Casio Privia series).  
 				</p>
 				<p>
-				Lessons are currently offered at Jennings Music and Education Center, The Homeschool Consortium and at my home studio in Woodstock.  
+				Lessons are currently offered at:<br> 
+				<ul>
+					<li><strong>Jennings Music and Education Center</strong>, 3595 Canton Rd., #308, Marietta, GA 30066 (next to Kroger)</li>
+					<li>	
+						<strong>The Homeschool Consortium</strong>, 210 Wooten Lake Rd NW, Kennesaw, Cobb County 30144 and at my home studio in Woodstock. 
+					</li>
+				</ul>
 				</p>
 				<h3>
 					<a href="includes/modals/sMusicForm.php" data-toggle="modal" data-target="#bsModal" style="text-decoration: underline;">Schedule a Lesson</a>
