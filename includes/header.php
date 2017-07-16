@@ -24,7 +24,7 @@
 		</a>							
 		<a 
 			class="navLinks"
-			href="includes/contactForm.php"
+			href="includes/modals/contactForm.php"
 			data-toggle="modal" data-target="#bsModal">
 			<li>Contact</li>
 		</a>				
