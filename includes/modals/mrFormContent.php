@@ -39,11 +39,11 @@
 		</div>
 		<div class="form-group row">
 			<div class="col-md-6">		
-				<label for="email">Your Email</label>
+				<label for="email">Email</label>
 				<input type="text" name="email" value="" required="true">
 			</div>
 			<div class="col-md-6">		
-				<label for="phone">Your Phone</label>
+				<label for="phone">Phone</label>
 				<input type="text" name="phone" value="" required="true">
 			</div>				
 		</div>
@@ -73,17 +73,23 @@
 				<h3 class="leftContents">
 					*Only child registered for the class may attend
 				</h3>				
-				<h3 class="leftContents">
+				<h4 class="leftContents">
 					<strong class="borderBottom">
 						Registration is complete upon:
 					</strong>
-				</h3>
-				<h3 class="leftContents">
+				</h4>
+				<h5 class="leftContents">
 					1. Submission of this form
-				</h3>
-				<h3 class="leftContents">
+				</h5>
+				<h5 class="leftContents">
 					2. Receipt of Confirmation Email (within 24 hours)
-				</h3>
+				</h5>
+				<h5 class="leftContents">
+					3. Return of the Completed Registration Form (will be emailed)
+				</h5>
+				<h5 class="leftContents">
+					4. Payment of initial fee
+				</h5>									
 			</div>
 		</div>
 		<div class="centerContents">

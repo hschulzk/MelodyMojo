@@ -36,11 +36,11 @@
 		</div>
 		<div class="form-group row">
 			<div class="col-md-6">		
-				<label for="email">Your Email</label>
+				<label for="email">Email</label>
 				<input type="text" name="email" value="" required="true">
 			</div>
 			<div class="col-md-6">		
-				<label for="phone">Your Phone</label>
+				<label for="phone">Phone</label>
 				<input type="text" name="phone" value="" required="true">
 			</div>				
 		</div>
