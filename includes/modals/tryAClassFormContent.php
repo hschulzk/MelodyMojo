@@ -1,6 +1,6 @@
 <?php
 	include ('../../dbFuncs.php');
-	$lessonList = explode(',','4,5,6');
+	$lessonList = explode(',','19,20,21');
 	$allLessons = getLessonsOfType($lessonList);
 ?>
 <div class="modal-header">

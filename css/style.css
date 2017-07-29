@@ -1,4 +1,3 @@
-
 	* {box-sizing: border-box;}
 
 	/*General element styling including behavior specific classes and bootstrap fixes*/
@@ -422,6 +421,7 @@
 		border-radius: 6px;
 		text-align: center;
 		padding: 6em;
+		z-index: 76;
 	}
 
 	#formSuccessClose {
