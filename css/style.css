@@ -300,6 +300,8 @@
 		width: 90vw;
 		margin: auto;
 		text-align: center;
+	    height: 90vh;
+	    overflow-y: scroll;		
 	}
 
 	.modal .modal-dialog .modal-content h2,
@@ -437,4 +439,10 @@
 			width: 90vw;
 			left: 5vw;
 		}
+	}
+
+
+	#sb_registration {
+		height: 140vh;
+		overflow-y: scroll;
 	}

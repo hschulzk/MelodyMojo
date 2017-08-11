@@ -37,32 +37,6 @@
 		}
 		return $qResult;		
 	}
-
-	function queryToArray($q) {
-		$q->data_seek(0);
-		$returnArray = array();
-		while($row = $q->fetch_assoc()){
-			$returnArray[] = $row;
-		}
-		return $returnArray;	
-	}
-
-	function getLessonsOfType($lessonType = Null) {
-		if($lessonType) {
-			$lessonType = implode(',', $lessonType);
-		}
-		$mrQ = "SELECT lessontypes.name, lessons.id, lessons.lessonDate, lessons.maxClass, lessontypes.cost, lessons.location, lessons.city, DAYNAME(lessons.lessonDate) AS weekday
-				from lessons 
-				inner join lessontypes on lessons.typeID = lessontypes.id";
-		if($lessonType) {
-			$mrQ = $mrQ . ' WHERE typeID in ('. $lessonType.')';
-		}
-				
-		$classes = queryDB ($mrQ);
-		return queryToArray($classes);
-	}	
-
-
 	// Dump all form submissions into the Form Submissions table for first few weeks to test data integrity
 	function dumpFormData($post){
 		$dbc = startConn('mm');

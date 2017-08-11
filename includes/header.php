@@ -28,20 +28,12 @@
 			data-toggle="modal" data-target="#bsModal">
 			<li>Contact</li>
 		</a>				
-<!-- 
-	Inactive until the blog is active
-		<a 
-			class="navLinks"
-			href="#mRhapsody">
-			<li>Blog</li>
-		</a>	 
--->							
 	</ul>
 </div>
 
 <?php 
 	if (isset($testVal)) {
-		echo '<div id="submitSuccess"><h3>Thanks for submitting. We'."'".'ll be in touch shortly.</h3><button id="formSuccessClose">Close</button></div>';
+		echo '<div id="submitSuccess"><h3>Thanks for getting in touch. We'."'".'ll be in touch shortly.</h3><button id="formSuccessClose">Close</button></div>';
 	} 
 
 ?>
