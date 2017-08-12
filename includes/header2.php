@@ -32,7 +32,13 @@
 			href="../includes/modals/contactForm.php"
 			data-toggle="modal" data-target="#bsModal">
 			<li>Contact</li>
-		</a>								
+		</a>
+		<a 
+
+			href="../login/"
+		>
+			<li>Log In</li>
+		</a>										
 	</ul>
 </div>
 

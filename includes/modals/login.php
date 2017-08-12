@@ -5,7 +5,7 @@
 	</div>
 </div>
 <div class="modal-body">
-	<script type='text/javascript' src='https://login.mymusicstaff.com/Widget/v2/Registration.ashx?id=17745' class='sb_registration'></script>
+
 </div>
 <div class="modal-footer">
 	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
