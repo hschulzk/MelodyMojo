@@ -1,4 +1,4 @@
-<div class="row" id="navRow">
+<div class="row scrollNav" id="navRow">
 	<div id="mobileImageWrap">
 		<img 
 			class="mobileMenuIcons" 

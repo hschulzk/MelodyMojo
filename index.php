@@ -7,43 +7,62 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel='stylesheet' type='text/css' href="css/style.css">
-		<?php 
-			include ('dbFuncs.php');
-			include ('includes/formProcessing.php');
-		?>
 		<title>Melody Mojo</title>
 	</head>
 	<body>
-		<?php 
-			include 'includes/bsForm.php';
-		?>
 		<div class="container-fluid">
 			<div id="aboveFold">
 				<div id="bannerOverlay"></div>
 				<div id="graphicOverlay">
 					<div id="bannerPhotoBox" style="">
 						<img width="310px" height="360px" src="img/mm2.png">
-					</div>
-					<div class="row" id="findALesson">
-
-					</div>				
-					<?php
-						include('includes/header.php')
-					?>				
+					</div>			
+					<div class="row scrollNav" id="navRow">
+						<div id="mobileImageWrap">
+							<img 
+								class="mobileMenuIcons" 
+								height="75px" 
+								width="120px" 
+								src="img/mm2.png">
+						</div>
+						<div id="hamburgerWrap">
+							<i id="hamburgerMenu" class="fa fa-bars mobileMenuIcons" aria-hidden="true"></i>
+						</div>
+						<ul>
+							<a 
+								href="#simplyMusicPiano">
+								<li>Simply Music Piano</li>
+							</a>
+							<a 
+								href="about/">
+								<li>About</li>
+							</a>						
+							<a href="musicRhapsody/">
+								<li>Early Childhood Music</li>
+							</a>							
+							<a 
+								class="navLinks"
+								href="includes/modals/contactForm.php"
+								data-toggle="modal" data-target="#bsModal">
+								<li>Contact</li>
+							</a>
+							<a 
+								href="login/">
+								<li>Log In</li>
+							</a>						
+						</ul>
+					</div>			
 				</div>
 				<img height="100vh" width="100vw" id="bannerPhoto" src="pianoKeys2.jpg">
 			</div>
 			<div class="row lessonSection" id="earlyChildhood">
-				<div class="col-lg-4 col-md-6"></div>			
+				<div class="col-lg-4 col-md-6">
+					<img width="400px" height="265px" class="" src="img/childrenMusic.jpeg">
+				</div>					
 				<div class="col-lg-8 col-md-6 sectionDescription">
 					<h2>
 						Music Rhapsody Early Childhood Music
 					</h2>
-				</div>
-				<div class="col-lg-4 col-md-6 centerContents">
-					<img width="400px" height="265px" class="" src="img/childrenMusic.jpeg">
-				</div>					
-				<div class="col-lg-8 col-md-6 sectionDescription">
 					<p>
 						Early childhood music and movement programs seem like fun and games--and they are--, but they are also an excellent way to help children develop rhythm, balance and other skills so important to developing language, math skills, balance, coordinate, social skills, critical thinking, organization skills, creativity and confidence.  All those benefits wrapped up in an hour of song, dance, laughing, running, playing, puppets, super-cool instruments and snuggling and bonding with mom, dad or a caregiver.  It’s too much fun! 
 					</p>
@@ -58,28 +77,58 @@
 			</div>		
 
 			<div class="row lessonSection" id="simplyMusicPiano">
-				<div class="col-lg-4 col-md-6"></div>			
-				<div class="col-lg-8 col-md-6 sectionDescription">
-					<h2>Simply Music Piano</h2>
-				</div>
-				<div class="col-lg-4 col-md-6 centerContents">
+				<div class="col-lg-4 col-md-6">
 					<img width="400px" height="265px" src="img/pianoFingers.jpeg">
 				</div>
-				<div class="col-lg-8 col-md-6 sectionDescription">	
-					<p>
-					Part of the beauty of Simply Music Piano is how quickly and easily it makes a huge quantity of quality music immediately accessible to students, ages 6 to 90, through its break-through Australian developed play-based method.  Theory is learned quickly as it is used to expand the student’s repertoire, including original compositions.  Group classes are the most efficient and fun method.  All lessons are taught in a highly self-affirming, success-oriented environment.  I love helping students start playing fun music at their first lessons while building a toolkit to help them self-generate learning new pieces and improvising their own.  The combination of teacher-time, fully supportive at-home materials and an innovative method results in students who love making music.  	
+				<div class="col-lg-8 col-md-6 sectionDescription">
+					<h3>Simply Music Piano</h3>	
+										<p>
+						You love music.  Maybe you’d like to play piano—it's incredibly cool!  Are you looking for a way to keep your brain young? Or do want your child to find joy and success in creating and performing.
+						My students, ages 6 to 90, start playing all kinds of music starting at their first lesson.  They have a blast with the Simply Music Piano method in class and playing at home—or anywhere.  It’s even more fun in our Piano with Friends classes.  Every lesson is in a highly self-affirming, success-oriented environment. 
 					</p>
-					<p>	
-					Students needs an acoustic piano or a weighted 61+ keys, keyboard with a pedal at home in order to practice (for example, Casio Privia series).  
+					<p>
+						Students needs an acoustic piano or a weighted 61+ keys, keyboard with a pedal at home in order to practice (for example, Casio Privia series).
 					</p>
 					<p>
-					Lessons are currently offered at:<br> 
-					<ul>
-						<li><strong><a href="http://jenningsmusic.com/">Jennings Music and Education Center</a></strong>, 3595 Canton Rd., #308, Marietta, GA 30066 (next to Kroger)</li>
-						<li>	
-							<strong><a href="https://thehomeschoolconso.wixsite.com/website">The Homeschool Consortium</a></strong>, 210 Wooten Lake Rd NW, Kennesaw, Cobb County 30144 and at my home studio in Woodstock. 
+						Lessons are currently offered in Woodstock, Marietta, and Kennesaw.						  	
+					</p>
+
+					<p>Everyone is musical—including you!  Prove it to yourself.</p>
+					<h5>Locations:</h5> 
+					<ul style="list-style: none; padding-left: 0px;">
+						<li>
+							Tuesdays: Home Studio, Woodstock, near Hobgood Park
+						</li>
+						<li>
+							Wednesdays: Steps Dance Center, Rose Creek Parkway, Woodstock
+						</li>
+						<li>
+							Thursdays: The Homeschool Consortium, Kennesaw, and Jennings Music, Marietta
 						</li>
 					</ul>
+					<p>
+						To try it out, <a 
+						data-toggle="modal" 
+						data-target="#bsModal" 
+						href="../includes/modals/contactForm.php"
+						>contact me.</a>
+					</p>
+					<p>
+						To sign up for classes, click on Enroll Me.  After completing 
+						the form, check your email for instructions.  It will return 
+						you to this site so you can log-in and choose a class.
+					</p>
+					<p>
+						<a href="includes/modals/sMusicForm.php" data-toggle="modal" data-target="#bsModal" style="text-decoration: underline;">Enroll Now</a>
+					</p>
+					<ul style="list-style: none; padding-left: 0px;">
+						<li>Piano with Friends – Elementary Ages (age 6-13)</li> 		
+						<li>Piano with Friends – High School (age 14-18)</li> 	
+						<li>Piano with Friends – Adults</li> 	
+						<li>Private lessons</li> 	
+					</ul>
+					<p>
+						<a href="includes/modals/sMusicForm.php" data-toggle="modal" data-target="#bsModal" style="text-decoration: underline;">Enroll Now</a>
 					</p>
 					<h3>
 						<a href="includes/modals/sMusicForm.php" data-toggle="modal" data-target="#bsModal" style="text-decoration: underline;">Schedule a Lesson</a>
@@ -107,8 +156,5 @@
 			</div>
 			<div class="row" style="margin-top: 25em;"></div>
 		</div>
-		<?php
-			include 'includes/footer.php';
-		?>
 	</body>
 </html>

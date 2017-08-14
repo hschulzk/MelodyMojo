@@ -1,24 +1,12 @@
-$(document).ready(function(){
-	//when a link is clicked, use jquery to go to that href
-	$("#graphicOverlay .row ul a.navLinks").click(function(event) {
-		event.preventDefault();
-		let divTarget = $(this).attr('href');
-	    $('html, body').animate({
-	        scrollTop: $(divTarget).offset().top
-	    }, 700);
-	});
+$(document).ready(function () {
 	//Manages scrolltop header.
 	$(window).scroll(function () {
 		if ($(window).scrollTop() > $('#aboveFold').height()) {
 			$('#navRow').addClass("scrollNav");
-			if($(window).width() < 768) {
-				$('#navRow ul').hide();
-			}
 		} else if ($('#aboveFold').height() > 0)  {
 			$('#navRow').removeClass("scrollNav");
-			$('#navRow ul').show();
-
 		}
+		console.log('fire');
 	});
 
 	$('#hamburgerMenu').click(function(){
@@ -34,4 +22,8 @@ $(document).ready(function(){
 		$(this).find(".modal-content").empty();
 	});
 
+	$('.simplyDetailsToggle').click(function() {
+		console.log('clicked');
+		$('.toggleShow').slideToggle();
+	});
 });
